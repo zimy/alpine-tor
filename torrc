@@ -1,0 +1,9 @@
+SocksPort 9050 
+DataDirectory /var/lib/tor
+HiddenServiceDir /var/lib/tor/hs/
+HiddenServicePort 22 172.17.0.1:22
+HiddenServicePort 80 172.17.0.1:80
+HiddenServicePort 8080 172.17.0.1:8080
+HiddenServicePort 3000 172.17.0.1:3000
+HiddenServicePort 443 172.17.0.1:443
+DNSPort 9053
