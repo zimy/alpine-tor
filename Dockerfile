@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:3.6
 COPY torrc /etc/tor/torrc
 RUN echo '@testing http://nl.alpinelinux.org/alpine/edge/testing' >> \
       /etc/apk/repositories && \
